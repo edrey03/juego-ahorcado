@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
+#imagen-ahorcado {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#palabra {
+    font-size: 6vw; /* tamaño de fuente adaptable */
+    letter-spacing: 1vw; /* espaciado adaptable */
+    margin-bottom: 20px;
+}
+
+#intentos {
+    margin-top: 20px;
+    font-size: 4vw; /* tamaño de fuente adaptable */
+}
+
+#letras {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    font-size: 4vw; /* tamaño de fuente adaptable */
+    padding: 10px 5px;
+    margin: 2px;
+}
+
+button.disabled {
+    text-decoration: line-through;
+    color: red;
+}
+
+#boton-pista {
+    margin-top: 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 4vw; /* tamaño de fuente adaptable */
+}
+
+@media (min-width: 600px) {
+    #palabra {
+        font-size: 24px;
+        letter-spacing: 10px;
+    }
+
+    #intentos {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+
+    #boton-pista {
+        font-size: 18px;
+    }
+}
